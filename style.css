@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.root {
+  --cards-border-color: #1F1F1F;
+  --cards-bg-color: #101010;
+  --bg-color: #0B0B0B;
+  --brand-color: #97EDAA;
+}
+
+body {
+  color: white;
+}

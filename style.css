@@ -4,13 +4,51 @@
   box-sizing: border-box;
 }
 
-.root {
-  --cards-border-color: #1F1F1F;
+:root {
+  --cards-border-color: #1f1f1f;
   --cards-bg-color: #101010;
-  --bg-color: #0B0B0B;
-  --brand-color: #97EDAA;
+  --bg-color: #0b0b0b;
+  --brand-color: #97edaa;
 }
 
 body {
   color: white;
+  background: var(--bg-color);
+}
+
+#container {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header span {
+  color: var(--brand-color);
+  font-family: "Fira Code";
+  font-style: normal;
+  font-size: 16px;
+}
+
+header #links {
+  display: flex;
+  gap: 20px;
+}
+
+header #links a {
+  text-decoration: none;
+
+  font-family: "Archivo";
+  font-weight: 500;
+  font-size: 16px;
+
+  color: white;
+}
+
+header #links a:hover {
+  color: var(--brand-color);
 }

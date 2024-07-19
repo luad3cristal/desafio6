@@ -17,7 +17,7 @@ body {
 }
 
 #container {
-  width: 75vw;
+  width: 65vw;
   margin: 0 auto;
 }
 
@@ -107,4 +107,69 @@ main #inicio button {
   font-size: 15px;
 
   cursor: pointer;
+}
+
+main #about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  margin: 20px 0;
+}
+
+main #about #sobre {
+  font-family: "Archivo";
+  font-weight: 400;
+  font-size: 30px;
+
+  color: var(--brand-color);
+  text-align: center;
+}
+
+main #about > p {
+  font-family: "Archivo";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
+  text-align: center;
+}
+
+main #about #nav-links {
+  margin-top: 30px;
+
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+main #about .nav-link {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main #about .nav-link .card {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--cards-border-color);
+  border-radius: 100%;
+  padding: 12px;
+
+  margin-bottom: 10px;
+}
+
+main #about .nav-link p {
+  font-family: "Archivo";
+  font-weight: 500;
+  font-size: 16px;
+
+  margin-bottom: 10px;
+}
+
+main #about .nav-link span {
+  font-family: "Archivo";
+  font-weight: 400;
+  font-size: 15px;
 }

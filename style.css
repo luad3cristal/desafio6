@@ -190,6 +190,8 @@ main #projects #projetos {
 main #projects > div {
   display: flex;
   flex-wrap: wrap;
+
+  margin-bottom: 50px;
 }
 
 main #projects > div .projeto {
@@ -253,4 +255,46 @@ main #projects .projeto .btn-projeto .b2 {
   border: 2px solid var(--brand-color);
   background-color: transparent;
   color: var(--brand-color);
+}
+
+/* Serviços */
+main #services #servicos {
+  font-weight: 400;
+  font-size: 30px;
+
+  color: var(--brand-color);
+  text-align: center;
+}
+
+main #services > div {
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main #services > div .servico {
+  width: 300px;
+  height: 220px;
+
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+
+  font-size: 16px;
+
+  background-color: var(--cards-bg-color);
+  border-bottom: 2px solid var(--brand-color);
+}
+
+main #services > div .servico h1 {
+  font-family: "Archivo";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
 }

@@ -17,7 +17,7 @@ body {
   font-family: "Archivo";
 }
 
-#container {
+.container {
   width: 65vw;
   margin: 0 auto;
 }
@@ -299,6 +299,7 @@ main #services > div .servico h1 {
   line-height: 30px;
 }
 
+/* Habilidades */
 main #abilities #habilidade {
   font-weight: 400;
   font-size: 30px;
@@ -328,4 +329,22 @@ main #abilities > div .ability {
 
 main #abilities > div .ability img {
   width: 80px;
+}
+
+/* footerzinho */
+footer {
+  padding: 30px;
+
+  background-color: var(--cards-bg-color);
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+footer p span {
+  color: var(--brand-color);
 }

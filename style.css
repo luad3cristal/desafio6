@@ -267,7 +267,7 @@ main #services #servicos {
 }
 
 main #services > div {
-  margin-top: 40px;
+  margin: 40px 0 80px;
 
   display: flex;
   justify-content: space-between;
@@ -297,4 +297,35 @@ main #services > div .servico h1 {
   font-size: 26px;
   font-weight: 400;
   line-height: 30px;
+}
+
+main #abilities #habilidade {
+  font-weight: 400;
+  font-size: 30px;
+
+  color: var(--brand-color);
+  text-align: center;
+}
+
+main #abilities > div {
+  margin: 40px 0 60px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+main #abilities > div .ability {
+  width: 140px;
+  height: 140px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--cards-bg-color);
+  border: 1px solid var(--cards-border-color);
+}
+
+main #abilities > div .ability img {
+  width: 80px;
 }
